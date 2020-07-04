@@ -1,0 +1,39 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+	 audio {
+      display: none;
+}
+
+img {
+  cursor: pointer;
+  width: 5%;
+  margin-left: 10%;
+}
+</style>
+
+</head>
+
+<body>
+
+<img onclick="playSound();" src="http://initiativedeveloppeur.fr/wp-content/uploads/2019/03/applause-hands.jpg" alt="">
+  <!-- <audio controls="controls" id='applause' src="http://initiativedeveloppeur.fr/wp-content/uploads/2019/03/sf_public_jeunes_75p_applaudissements_01.mp3" type="audio/mp3">
+  </audio>   -->
+
+  <audio controls="controls" id='applause' src="applause10.mp3" type="audio/mp3">
+  </audio>  
+
+</body>
+
+<script type="text/javascript">
+
+	function playSound() {
+    applause.play();
+} 
+
+</script>
+
+</html>
